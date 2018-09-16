@@ -154,40 +154,44 @@ export class Home extends Component {
 
        </section>
     {/* end offer section */}
-    {/*custom counter */}
-    {/* <section class="custom-clients text-center  ">
-            <div class="container">
-                <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-      <h2 class="timer" data-to="300" data-speed="1500"></h2>
-       <p class="count-text ">Our Clients</p>
-    </div>
+            {/*middle-section*/}
+  <section className="custom-middle-section-ecom">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div className="middle-images text-center">
+                  <img src={require('../images/service_1.png')} className="img-fluid"/>
+                  <h4>Return & Exchange</h4>
+                  <p>Committed to return the money in 30 days</p>
+                </div>
+                </div>
 
-   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-      <h2 class="timer" data-to="1700" data-speed="1500"></h2>
-      <p class="count-text ">Projects</p>
-    </div>
+                 <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div className="middle-images text-center">
+                  <img src={require('../images/service_2.png')} className="img-fluid"/>
+                  <h4>RECIEVE GIFT CARD</h4>
+                  <p>Committed to return the money in 30 days</p>
+                </div>
+                </div>
 
-   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-      <h2 class="timer" data-to="11900" data-speed="1500"></h2>
-      <p class="count-text ">Happy Clients</p>
-    </div>
-
-    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-      <h2 class="timer" data-to="157" data-speed="1500"></h2>
-      <p class="count-text ">Our Domestic Projects</p>
-    </div>
-</div>
-                    </div>
-                </section> */}
-    {/*end custom counter */}
+                 <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <div className="middle-images text-center">
+                  <img src={require('../images/service_3.png')} className="img-fluid"/>
+                  <h4>ONLINE SUPPORT 24/7</h4>
+                  <p>Committed to return the money in 30 days</p>
+                </div>
+                </div>
+              </div>
+            </div>
+              </section>
+            {/*end middle section */}
     {/*featured items */}
     <section className="fashion-carousel">
            <div className="container">
            <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div className="trending-header text-center">
-                  <h2>Trending Items</h2>
+                  <h2>Featured Items</h2>
                   <img src={require('../images/section_title.png')} className="img-fluid"/>
                 </div>
 
