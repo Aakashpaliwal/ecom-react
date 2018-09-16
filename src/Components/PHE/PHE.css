@@ -1,0 +1,17 @@
+.beradcrumb {
+    margin-top: 4%;
+}
+.parallax {
+    /* The image used */
+    margin-top: -15px;
+    background-image: url("../img/hand-powered-water-pump-people-pump-the-old-water-hand-pump_edgrukoqdl__F0000.jpg");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,17 @@
+.beradcrumb {
+    margin-top: 4%;
+}
+.parallax {
+    /* The image used */
+    margin-top: -15px;
+    background-image: url("../img/sprinklers-hydrants-hose-reel-port_macquarie-1200x800.jpg");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

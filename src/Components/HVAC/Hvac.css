@@ -1,0 +1,20 @@
+.hvac-content {
+
+}
+.beradcrumb {
+    margin-top: 4%;
+}
+.parallax {
+    /* The image used */
+    margin-top: -15px;
+    background-image: url("../img/what_is_hvac_and_where_is_it_used.jpg");
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

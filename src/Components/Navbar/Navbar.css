@@ -1,0 +1,12 @@
+.custom-below-navbar ul li {
+margin: 0 20px;
+}
+.custom-upper-navbar a {
+    color: #000!important;
+}
+.custom-upper-navbar .nav-item .dropdown-menu a {
+    color: #000!important;
+}
+.custom-upper-navbar {
+    background: #fff!important;
+}
