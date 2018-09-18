@@ -515,6 +515,7 @@ export class Home extends Component {
                <div className="col-lg-4 col-md-4 col-sm-12 co-xs-12">
                   <div className="custom-blog-images text-center">
                   <img src = {require('../images/b_n_1.jpg')} className="img-fluid" />
+                  <span className="blog-img-bg"></span>
                   <p><strong>FASHION NEWS</strong></p>
                   <h5>BLOG IMAGE POST</h5>
                   <p>Curabitur ullamcorper a erat in pulvinar. Sed dapibus augue libero tincidunt facilisis iaculis 
@@ -526,6 +527,7 @@ nec vulputate nisl ultricies. </p>
                 <div className="col-lg-4 col-md-4 col-sm-12 co-xs-12">
                   <div className="custom-blog-images text-center">
                   <img src = {require('../images/b_n_2.jpg')} className="img-fluid" />
+                  <span className="blog-img-bg"></span>
                   <p><strong>LIFESTYLE</strong></p>
                   <h5>POST WITH AUDIO</h5>
                   <p>Etiam tempor nunc viverra urna tincidunt. In at efficitur erat. Donec interdum metus eu odio iaculis nec commodo odio vulputate </p>
@@ -536,6 +538,7 @@ nec vulputate nisl ultricies. </p>
                 <div className="col-lg-4 col-md-4 col-sm-12 co-xs-12">
                   <div className="custom-blog-images text-center">
                   <img src = {require('../images/b_n_3.jpg')} className="img-fluid" />
+                  <span className="blog-img-bg"></span>
                   <p><strong>FASHION NEWS</strong></p>
                   <h5>BLOG IMAGE POST</h5>
                   <p>Curabitur ullamcorper a erat in pulvinar. Sed dapibus augue libero tincidunt facilisis iaculis 
