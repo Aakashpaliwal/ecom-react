@@ -128,28 +128,314 @@ export class Home extends Component {
                 <div className="trending-header text-center">
                   <h2>Trending Items</h2>
                   <img src={require('../images/section_title.png')} className="img-fluid"/>
+                  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">New Arrival</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Men's</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Women's</a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  <div class="customNavigation"> <a class="btn prev"><i class="fa fa-caret-left"></i></a> <a class="btn next"><i class="fa fa-caret-right"></i></a> </div>
+          <div id="owl-demo" class="owl-carousel">
+                  <div class="item">
+                  <img src={require('../images/trend_man1.jpg')} alt="Mahi_Product_Slider" className="image" />
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man2.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man3.jpg')} alt="Product_Slider" className="img-fluid"  />
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man4.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item"><img src={require('../images/trend_man5.jpg')} alt="Product_Slider" className="img-lfuid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man6.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">\
+                  <img src={require('../images/trend_man7.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+          </div>
+
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+  <div class="customNavigation"> <a class="btn prev"><i class="fa fa-caret-left"></i></a> <a class="btn next"><i class="fa fa-caret-right"></i></a> </div>
+          <div id="owl-demo3" class="owl-carousel">
+                  <div class="item">
+                  <img src={require('../images/trend_man1.jpg')} alt="Mahi_Product_Slider" className="image" />
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man2.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man3.jpg')} alt="Product_Slider" className="img-fluid"  />
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man4.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man5.jpg')} alt="Product_Slider" className="img-lfuid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man6.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man7.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+          </div>
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+  <div class="customNavigation"> <a class="btn prev"><i class="fa fa-caret-left"></i></a> <a class="btn next"><i class="fa fa-caret-right"></i></a> </div>
+          <div id="owl-demo4" class="owl-carousel">
+                  <div class="item">
+                  <img src={require('../images/trend_man1.jpg')} alt="Mahi_Product_Slider" className="image" />
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man2.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man3.jpg')} alt="Product_Slider" className="img-fluid"  />
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man4.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man5.jpg')} alt="Product_Slider" className="img-lfuid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man6.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+                  <div class="item">
+                  <img src={require('../images/trend_man7.jpg')} alt="Product_Slider" className="img-fluid"/>
+                  <div class="middle-img">
+    <div class="text-img text-center">
+    <ul>
+            <li><i className="fa fa-shopping-cart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-bar-chart" aria-hidden="true"></i></li>
+            <li><i className="fa fa-heart-o" aria-hidden="true"></i></li>
+            <li><i className="fa fa-eye" aria-hidden="true"></i></li>
+    </ul>
+    </div>
+  </div>
+                  </div>
+          </div>
+
+  </div>
+</div>
                 </div>
 
               </div>
            </div>
-              <div className="row">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="customNavigation"> <a class="btn prev"><i class="fa fa-caret-left"></i></a> <a class="btn next"><i class="fa fa-caret-right"></i></a> </div>
-          <div id="owl-demo" class="owl-carousel">
-                  <div class="item">
-                  <img src={require('../images/trend_man1.jpg')} alt="Mahi_Product_Slider" className="image" />
-                 
-                  </div>
-                  <div class="item"><img src={require('../images/trend_man2.jpg')} alt="Product_Slider" className="img-fluid"/></div>
-                  <div class="item"><img src={require('../images/trend_man3.jpg')} alt="Product_Slider" className="img-fluid"  /></div>
-                  <div class="item"><img src={require('../images/trend_man4.jpg')} alt="Product_Slider" className="img-fluid"/></div>
-                  <div class="item"><img src={require('../images/trend_man5.jpg')} alt="Product_Slider" className="img-lfuid"/></div>
-                  <div class="item"><img src={require('../images/trend_man6.jpg')} alt="Product_Slider" className="img-fluid"/></div>
-                  <div class="item"><img src={require('../images/trend_man7.jpg')} alt="Product_Slider" className="img-fluid"/></div>
-          </div>
 
-                </div>
-              </div>
            </div>   
 
        </section>
